@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "course-pydantic"
+version = "0.1.0"
+description = ""
+authors = ["heicg <hei.cga@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10.14"
+pydantic = "^2.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
